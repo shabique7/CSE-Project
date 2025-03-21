@@ -1,0 +1,73 @@
+# Mobile Banking System in C 💰💻  
+
+## 📌 Overview  
+
+The **Mobile Banking System in C** is a **console-based banking application** that allows users to **perform essential banking operations** securely. The program mimics a **real-world banking experience**, enabling users to **send money, add funds, check their balance, recharge mobile numbers, and cash out money** with PIN verification for security.  
+
+This project was developed using **C programming** and utilizes **loops, conditionals, and user input handling** to create a smooth user experience. The system ensures **security** by requiring users to **enter a correct 4-digit PIN** before performing any sensitive transaction.  
+
+---
+
+## 💡 Motivation  
+
+The purpose of this project is to **simulate a basic banking system** and demonstrate how C programming can be used to build real-world applications. It is a great **learning project** for beginners who want to understand:  
+
+✔️ **Menu-driven programs** using loops and conditionals  
+✔️ **Secure user input handling** (PIN verification)  
+✔️ **Basic banking logic** (transactions, balance updates)  
+✔️ **Error handling** to prevent invalid transactions  
+
+This project **does not use databases**, so it operates **in-memory**—meaning all data resets when the program is restarted. Future improvements can integrate **file handling or databases** for persistent data storage.  
+
+---
+
+## 🌟 Features  
+
+### 🔐 **Secure Authentication**  
+- Every transaction requires a **4-digit PIN** to ensure security.  
+- Prevents unauthorized access to the account.  
+
+### 💸 **Send Money**  
+- Transfer funds securely to another account.  
+- Validates if the balance is sufficient before proceeding.  
+- Requires PIN verification before the transaction is approved.  
+
+### 💰 **Add Money**  
+- Deposit money into the account.  
+- Asks for **confirmation** before adding funds.  
+
+### 📊 **Check Balance**  
+- Users can view their **current account balance** after entering their PIN.  
+
+### 📱 **Mobile Recharge**  
+- Recharge any mobile number using available funds.  
+- Users must confirm the transaction before proceeding.  
+
+### 🏧 **Cash Out**  
+- Withdraw money securely with PIN verification.  
+- Restricts withdrawals above a certain limit for security.  
+
+### ✅ **Confirmation Prompts**  
+- Before completing a transaction, users get a **confirmation prompt** to prevent accidental operations.  
+
+### 🔄 **Looped Transactions**  
+- Users can perform multiple transactions **without restarting** the program.  
+- After completing one transaction, they are given the choice to continue or exit.  
+
+---
+
+## 📷 Sample Program Output  
+
+Welcome to Mobile Banking NOCASH
+
+1.Send Money
+2.Add Money
+3.Check Balance
+4.Mobile Recharge
+5.Cash Out
+6.Exit Enter your choice: 1
+7.Send Money
+
+Enter Account Number: 12345678 Enter Amount: 500 Enter Your PIN:****
+
+500 was sent to 12345678
